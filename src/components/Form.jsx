@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
 import { ResponsiveContainer } from "recharts";
 import styles from "./Form.module.css"
-
+import character from "../assets/character.png";
 const Form = () => {
 
     const [input, setInput] = useState({
@@ -101,7 +101,7 @@ const Form = () => {
                     </div>
                 </form>
                 <div className={styles.formCharacter}>
-                    <img src="src/assets/ChatGPT_Image_May_11__2026__03_26_32_PM-removebg-preview.png" alt="Image" />
+                    <img src={character} alt="character" />
                 </div>
             </div>
 
