@@ -1,0 +1,8 @@
+body {
+  background:
+    radial-gradient(circle at 20% 20%, #7c3aed40, transparent 40%),
+    radial-gradient(circle at 80% 70%, #06b6d440, transparent 40%),
+    #020202;
+  color: white;
+  margin: 0;
+}
